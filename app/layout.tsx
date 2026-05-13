@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Kalix Loyalty",
-  description: "Earn points and rewards",
+  description: "Earn rewards for your activities",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-slate-50">{children}</body>
     </html>
   );
 }
